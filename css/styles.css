@@ -286,6 +286,15 @@ button {
     cursor: pointer;
 }
 
+.close-button:hover .icon-close,
+.close-button:focus .icon-close{
+    fill: var(--accent-color);
+}
+
+.icon-close {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* modal-form */
 
 .modal-title {
@@ -330,8 +339,14 @@ button {
     cursor: pointer;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    outline-color: transparent;
+    outline: transparent;
     padding: 10px 42px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comment {
+    height: 120px;
+    padding: 12px 16px;
 }
 
 .form-input:hover,
@@ -348,6 +363,7 @@ button {
     position: absolute;
     top: 50%;
     left: 12px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .agreement {
@@ -369,10 +385,6 @@ button {
     text-decoration: underline;
 }
 
-.agreement-input {
-    cursor: pointer;
-}
-
 .form-button {
     width: 200px;
     height: 50px;
@@ -391,7 +403,7 @@ button {
     background-color: var(--accent-color);
     
     border: none;
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);  
 }
 
 
@@ -613,10 +625,6 @@ button {
 .clients-list {
     display: flex;
     justify-content: space-between;   
-}
-
-.clients-iteam {
-       
 }
 
 .clients-item:not(:last-child) {
