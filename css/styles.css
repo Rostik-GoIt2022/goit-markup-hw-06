@@ -372,12 +372,40 @@ button {
 }
 
 .agreement-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     font-size: 14px;
     line-height: 1.71;
     font-weight: 400;
     letter-spacing: 0.03em;
 
     color: var(--text-color);
+}
+
+.agreement-input {
+    appearance: none;
+}
+
+.span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #000000;
+    width: 16px; 
+    height: 15px;
+
+    margin-right: 9px;
+} 
+
+.agreement-icon {
+
+}
+
+.agreement-input:checked + .span {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);    
 }
 
 .agreement-link {

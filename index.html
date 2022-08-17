@@ -122,13 +122,19 @@
                 </ul>
 
                 <div class="agreement">
-                  <input 
-                  class="agreement-input" 
-                  type="checkbox"
-                  name="choice"
-                  id="choice"
-                  value="+"/>
-                  <label class="agreement-label" for="choice">Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="">Условия договора</a></label>
+                  <label class="agreement-label">
+                    <input 
+                    class="agreement-input" 
+                    type="checkbox"
+                    name="choice"
+                    value="+"/>
+                    <span class="span">
+                      <svg class="agreement-icon" width="11" height="8">
+                        <use href="./images/svg/icons.svg#icon-check" />
+                      </svg>
+                    </span>
+                    Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="">Условия договора</a>
+                  </label>
                 </div>
                 <button class="form-button" type="submit">Отправить</button>
               </form>
