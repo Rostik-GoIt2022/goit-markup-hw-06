@@ -912,6 +912,7 @@ button {
 
 .footer-form {
     display: flex;
+    
     align-items: flex-end;
 
     margin-top: 72px;
@@ -928,7 +929,6 @@ button {
 .footer-form__label {
     margin-bottom: 20px;
 
-    text-align: left;
     text-transform: uppercase;
 
     font-size: 14px;
@@ -941,7 +941,6 @@ button {
 
 .footer-form__input {
     background-color: inherit;
-    
     width: 358px;
     padding: 15px 16px;
 
