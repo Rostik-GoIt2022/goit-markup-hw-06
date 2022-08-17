@@ -84,7 +84,7 @@
                     type="text"
                     id="name"
                     name="name"
-                    autofocus>
+                    autofocus/>
                     <svg class="form-icon" width="18" height="18">
                       <use href="./images/svg/icons.svg#icon-person" />
                     </svg>
@@ -95,7 +95,7 @@
                     class="form-input" 
                     type="tel"
                     id="tel"
-                    name="tel">
+                    name="tel"/>
                     <svg class="form-icon" width="18" height="18">
                       <use href="./images/svg/icons.svg#icon-phone-modal" />
                     </svg>
@@ -106,8 +106,7 @@
                     class="form-input" 
                     type="email"
                     id="email"
-                    name="email"
-                    >
+                    name="email"/>
                     <svg class="form-icon" width="18" height="18">
                       <use href="./images/svg/icons.svg#icon-email-modal" />
                     </svg>
@@ -128,8 +127,7 @@
                   type="checkbox"
                   name="choice"
                   id="choice"
-                  value="+"
-                  >
+                  value="+"/>
                   <label class="agreement-label" for="choice">Соглашаюсь с рассылкой и принимаю <a class="agreement-link" href="">Условия договора</a></label>
                 </div>
                 <button class="form-button" type="submit">Отправить</button>
@@ -516,6 +514,25 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer-form">
+          <div class="footer-form__group">
+            <label class="footer-form__label" for="email">Подпишитесь на рассылку</label>
+            <input 
+            class="footer-form__input" 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="E-mail" 
+            />
+          </div>
+          <button class="footer-form__button" type="submit">Подписаться
+            <svg class="footer-form__icon" height="24" width="24">
+              <use href="./images/svg/icons.svg#icon-telegram" />
+            </svg>
+          </button>
+
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
