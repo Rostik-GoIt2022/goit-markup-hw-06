@@ -13,7 +13,7 @@ body {
     background-color: var(--background-color);
     color: var(--brand-color);
     font-family: 'Roboto', 'Raleway', sans-serif;
-}
+} 
 
 img {
     display: block;
@@ -285,6 +285,118 @@ button {
 
     cursor: pointer;
 }
+
+/* modal-form */
+
+.modal-title {
+    font-size: 20px;
+    line-height: 1.15;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+
+    text-align: center;
+    padding-top: 60px;
+}
+
+.form {
+    margin-top: 12px;
+    margin-bottom: 19px;
+    padding: 0 40px;
+}
+
+.form-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    text-align: left;
+    margin-bottom: 4px;
+
+    font-size: 12px;
+    line-height: 1.16;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+}
+
+.form-input {
+    cursor: pointer;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline-color: transparent;
+    padding: 10px 42px;
+}
+
+.form-input:hover,
+.form-input:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.form-input:hover ~ .form-icon,
+.form-input:focus ~ .form-icon {
+    fill: var(--accent-color);
+}
+
+.form-icon {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+}
+
+.agreement {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.agreement-label {
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+}
+
+.agreement-link {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.agreement-input {
+    cursor: pointer;
+}
+
+.form-button {
+    width: 200px;
+    height: 50px;
+    padding: 0;
+    margin-bottom: 19px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    
+    font-size: 16px;
+    line-height: 1.87;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+
+    color: var(--background-color);
+    background-color: var(--accent-color);
+    
+    border: none;
+    
+}
+
+
+
+
 
 /* section features */
 
