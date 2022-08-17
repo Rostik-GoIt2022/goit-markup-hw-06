@@ -399,10 +399,6 @@ button {
     margin-right: 9px;
 } 
 
-.agreement-icon {
-
-}
-
 .agreement-input:checked + .span {
     background-color: var(--accent-color);
     border-color: var(--accent-color);    
