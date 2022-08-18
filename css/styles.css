@@ -331,7 +331,7 @@ button {
     color: var(--text-color);
 }
 
-.form-input {
+.form-input {   
     cursor: pointer;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -343,6 +343,10 @@ button {
 .comment {
     height: 120px;
     padding: 12px 16px;
+
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
 
     resize: none;
 }
@@ -371,8 +375,8 @@ button {
 
 .agreement-label {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
     font-size: 14px;
     line-height: 1.71;
     font-weight: 400;
@@ -390,11 +394,12 @@ button {
     justify-content: center;
     align-items: center;
 
-    border: 1px solid #000000;
+    border: 2px solid #000000;
+    border-radius: 2px;
     width: 16px; 
     height: 15px;
 
-    margin-right: 9px;
+    margin-right: 7px;
 } 
 
 .agreement-input:checked + .span {
